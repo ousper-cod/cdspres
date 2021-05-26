@@ -23,15 +23,6 @@ body {
   font-size: 14.43px;
 }
 
-.header:hover .header-content {
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
-}
-
-.header:hover::after {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-}
 .header-content {
   position: absolute;
   z-index: 1;
